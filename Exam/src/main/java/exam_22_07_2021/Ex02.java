@@ -1,13 +1,6 @@
 package exam_22_07_2021;
 
-public class Ex02_getMissingNumber {
-//	Bài 2 (10đ):Cho mảng A gồm n-1 phần tử với Ak = [1, n].
-//			Tìm số nguyên còn lại trong khoảng [1, n] không tồn tại trong mảng A.
-//			 VD1: n = 6, Ak = [3, 2, 1, 6, 5]
-//			 Phần tử cần tìm có giá trị: 4
-//			 VD2: n = 10, Ak = [3, 7, 9, 2, 1, 6, 5, 4, 10]
-//			 Phần tử cần tìm có giá trị: 8
-//			Method signature: int getMissingNumber(...)
+public class Ex02 {
 	public static void main(String[] args) {
 		int[] a = { 1, 2, 4, 3, 7, 6 };// 1 2 3 4 5 6 7
 		System.out.println(getMissingNumber(a, 7));

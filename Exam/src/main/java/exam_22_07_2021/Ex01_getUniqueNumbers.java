@@ -1,14 +1,10 @@
 package exam_22_07_2021;
 
+import java.sql.Array;
 import java.util.Arrays;
 
 public class Ex01_getUniqueNumbers {
-//	Bài 1 (30đ): Cho mảng A gồm n phần tử (2 < n < 20). Ak = [0, 100]
-//			Viết hàm liệt kê các phần tử chỉ xuất hiện một lần duy nhất trong mảng. Kết quả
-//			trả về được sắp xếp tăng dần.
-//			 Input: 3, 15, 21, 0, 15, 17, 21
-//			 Output: 0, 3, 17
-//			Method signature: int[] getUniqueNumbers(....)
+	private static int[] results;
 	public static void main(String[] args) {
 		int [] a= {1,1,2,2,3,4,5,1};
 		int[] result=getUniqueNumbers(a);
